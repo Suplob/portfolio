@@ -37,6 +37,7 @@ h2{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 
 #hero{
@@ -82,7 +83,6 @@ section{
     border-left: 10px solid;
     border-image: linear-gradient(lightSalmon, tomato);
     border-image-slice: 1;
-    margin-right: 5%;
 }
 
 footer{
