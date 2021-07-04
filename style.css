@@ -22,6 +22,9 @@ h1{
 p{
     opacity: .6;
 }
+h2{
+    font-size: 40px;
+}
 
 .orange{
     color: orange;
@@ -30,7 +33,7 @@ p{
 .btn{
     padding: 10px 35px;
     text-decoration: none;
-    background-image: linear-gradient(to right, red, orange);
+    background-image: linear-gradient(to right, lightSalmon, tomato);
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -56,4 +59,32 @@ section{
 
 #mr p{
     width: 90%;
+}
+
+.experience{
+    box-shadow: 10px 10px 45px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    border-radius: 5px;
+}
+
+.right{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    margin-right: 5%;
+}
+
+
+.left{
+    border-left: 10px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+    margin-right: 5%;
+}
+
+footer{
+    text-align: center;
 }
