@@ -72,17 +72,20 @@ section{
 }
 
 .right{
-    border-left: 10px solid;
+    border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
     margin-right: 5%;
+    background: white;
 }
 
 
 .left{
-    border-left: 10px solid;
+    border-left: 7px solid;
     border-image: linear-gradient(lightSalmon, tomato);
     border-image-slice: 1;
+    z-index: 999;
+    background: white;
 }
 
 footer{
@@ -92,5 +95,6 @@ footer{
 .experience-section{
     background-image: url(img/bg-2.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left center;
+    
 }
